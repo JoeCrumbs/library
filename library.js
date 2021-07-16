@@ -19,10 +19,6 @@ const library = {
         read = (typeof read === 'undefined') ? document.querySelector('#read').checked : read;
         this.myLibrary.push(new Book(title, author, pages, read));
         this.populateStorage();
-<<<<<<< HEAD
-=======
-        this.displayBook(this.myLibrary.length - 1);
->>>>>>> 7c9a497f989d48d421b199e70d4d81c7e9e77802
     },
     displayLibrary: function() {
         this.loadLibraryFromStorage();
