@@ -94,6 +94,7 @@ html {
     background-color: var(--background-color);
     opacity: 0.9;
     padding: 15px 15px 5px 15px;
+    word-wrap: break-word;
   }
   
   .book h2 {
